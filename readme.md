@@ -14,14 +14,18 @@ And when you submit it, your data displays at the screen as JSON, like this:
 
 ## How to install
 
-First, you need to clone this repository. Then, inside it, just run express' server. <br>
-To do it, just write it in you console:
+First, you need to clone this repository. Then, inside it, you need to install all the modules that i used, just type:
+```console
+  npm install
+```
+
+after the modules, you must run express' server. To do it just write in you console:
 
 ```console
   npm start
 ```
 
-Then, just execute `index.html` inside `public/view`, that's easy!
+Then, just execute `index.html` inside `./public/view`, that's easy!
 
 > OBS: If you want to change the code, you need to compile the typescript file. Just use `npm run compile`
 
