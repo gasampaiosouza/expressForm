@@ -4,13 +4,13 @@ I made an API with express that catch this form's data! For now it just display 
 
 The form looks like this:
 
-![Form first view]()
+![Form first view](https://imgur.com/I33w0Z4.jpg)
 
 > with that cool little heart as a button
 
 And when you submit it, your data displays at the screen as JSON, like this:
 
-![JSON first view]()
+![JSON first view](https://imgur.com/Q4ZKikw.jpg)
 
 ## How to install
 
