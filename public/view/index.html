@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4603725681.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form__box">
+      <h1 id="title">Basic form</h1>
+
+      <form method="post" action="/form/submit" id="form">
+        <input
+          type="text"
+          placeholder="Your name"
+          name="username"
+          required
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          required
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <input
+          type="email"
+          placeholder="Your email"
+          name="email"
+          required
+          autocomplete="off"
+          spellcheck="false"
+        />
+
+        <button type="submit">
+          <i class="fas fa-heart"></i>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
